@@ -1,0 +1,6 @@
+django
+django-rest-framework
+pillow
+PyPDF2
+openai
+django-cors-headers

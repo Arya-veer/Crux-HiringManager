@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "fc808117-dca4-4888-b813-05ee1096a384",
+		"name": "Hiring Manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16611152"
+	},
+	"item": [
+		{
+			"name": "Jobs",
+			"item": [
+				{
+					"name": "Job Create API",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\":\"Product manager\",\r\n    \"description\":\"Join us at Crux and take the lead in driving our product vision forward. As a Product Manager, you'll play a pivotal role in defining and executing our product roadmap, ensuring that our offerings meet and exceed customer expectations. Bring your strategic mindset, exceptional communication skills, and proven track record of successful product launches to the table as you collaborate closely with cross-functional teams to deliver innovative solutions. If you're passionate about leveraging technology to make a positive impact and thrive in a dynamic, fast-paced environment, we invite you to apply. Join our team and be part of shaping the future of IT.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/job/create/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"job",
+								"create",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Job List API",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/job/list/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"job",
+								"list",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Resume",
+			"item": [
+				{
+					"name": "Upload Resume API",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "job_static_id",
+									"value": "3ae27801-9f1c-4221-8dcd-e192dcd9702b",
+									"type": "text"
+								},
+								{
+									"key": "files",
+									"type": "file",
+									"src": "/C:/Users/aryav/Downloads/Arya Veer SDE Resume Updated.pdf"
+								},
+								{
+									"key": "files",
+									"type": "file",
+									"src": "/C:/Users/aryav/Downloads/charles-stover-resume.pdf",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/resume/upload/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"resume",
+								"upload",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Resume List API",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/resume/list/3ae27801-9f1c-4221-8dcd-e192dcd9702b/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"resume",
+								"list",
+								"3ae27801-9f1c-4221-8dcd-e192dcd9702b",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Resume Detail API",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/resume/detail/c9266f6d-d994-4ce7-8331-e74a7011361b",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"resume",
+								"detail",
+								"c9266f6d-d994-4ce7-8331-e74a7011361b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
