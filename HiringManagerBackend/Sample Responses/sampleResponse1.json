@@ -1,0 +1,160 @@
+{
+    "static_id": "8e00575c-f5b5-45f1-8d16-fc46377f5f09",
+    "college": {
+        "name": "University of Central Arkansas",
+        "branch": "Computer Science",
+        "degree": "Bachelor of Science",
+        "cgpa": "4.0",
+        "start_date": "2013",
+        "end_date": "2013"
+    },
+    "projects": [
+        {
+            "static_id": "3d4fe9d0-3d83-42bb-a538-803b9204dae8",
+            "project_title": "CloudWatch Container Insights, Contributor Insights, Lambda Insights, Logs, and Logs Insights consoles",
+            "short_description": "Unified cross-continental teams, created reusable components and utilities for multiple AWS services, improved CloudWatch's application monitoring, and led migration to a cloud-native infrastructure.",
+            "relevancy": 9,
+            "tech_stack": [
+                "AWS",
+                "React",
+                "Node",
+                "Express",
+                "SQL"
+            ],
+            "time_duration": {
+                "start_date": "2021",
+                "end_date": "2021",
+                "duration_months": 12
+            }
+        },
+        {
+            "static_id": "3c138f5c-8a5d-4c1b-ae51-b68f6f6042d8",
+            "project_title": "Coalition broker sales platform",
+            "short_description": "Established and documented on-call, operational audit, and technical lead processes. Standardized and distributed front end monitoring packages and CI/CD templates across multiple applications, leading to a 90% reduction in error rates.",
+            "relevancy": 8,
+            "tech_stack": [
+                "React",
+                "Redux",
+                "TypeScript",
+                "Node",
+                "NPM"
+            ],
+            "time_duration": {
+                "start_date": "2022",
+                "end_date": "2022",
+                "duration_months": 3
+            }
+        },
+        {
+            "static_id": "6e06dea5-88ed-49c9-9eda-fe986d9f99dc",
+            "project_title": "ReactN",
+            "short_description": "Open-sourced an extension of React for global state management with high adoption rates.",
+            "relevancy": 7,
+            "tech_stack": [
+                "React",
+                "Node"
+            ],
+            "time_duration": {
+                "start_date": "2020",
+                "end_date": "2020",
+                "duration_months": 12
+            }
+        },
+        {
+            "static_id": "7d937648-02b0-48a1-91e5-cda4fbfa7c6e",
+            "project_title": "Asset Protection Hub",
+            "short_description": "Led full-stack development in React and Node, built front end using Redux and Material UI, and back end as a REST API with SQL Server.",
+            "relevancy": 6,
+            "tech_stack": [
+                "React",
+                "Node",
+                "Express",
+                "SQL"
+            ],
+            "time_duration": {
+                "start_date": "2018",
+                "end_date": "2018",
+                "duration_months": 12
+            }
+        },
+        {
+            "static_id": "6511af1f-bfc0-4078-96c3-1a7d190bddf7",
+            "project_title": "RPG Engine",
+            "short_description": "Developed a browser-based RPG overworld engine using HTML, CSS, and JavaScript, with animation and customizable game settings.",
+            "relevancy": 5,
+            "tech_stack": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "time_duration": {
+                "start_date": "2012",
+                "end_date": "2012",
+                "duration_months": 12
+            }
+        }
+    ],
+    "professional_experiences": [
+        {
+            "static_id": "a4587bbb-31ed-48b5-a7d3-b047bb344a2f",
+            "short_description": "Migrated team's products to operational independence, scoped and tracked cross-team products, engaged customers and product managers for product improvement.",
+            "organization": "Coalition, Inc.",
+            "role": "Senior Frontend Engineer",
+            "tech_stack": [
+                "React",
+                "Redux",
+                "TypeScript",
+                "Node",
+                "NPM"
+            ],
+            "time_duration": {
+                "start_date": "2021",
+                "end_date": "Present",
+                "duration_months": 10
+            },
+            "relevance": 9
+        },
+        {
+            "static_id": "6a366d41-d526-4ea0-9929-ae236b48981f",
+            "short_description": "Scoped, estimated, and tracked cross-team products, engaged customers, improved monitoring and automated localization.",
+            "organization": "Amazon Web Services",
+            "role": "Senior Frontend Engineer",
+            "tech_stack": [
+                "React",
+                "Redux",
+                "Node",
+                "Express",
+                "SQL"
+            ],
+            "time_duration": {
+                "start_date": "2019",
+                "end_date": "2021",
+                "duration_months": 24
+            },
+            "relevance": 8
+        },
+        {
+            "static_id": "8b2766cb-481d-4584-ad76-e9432f748e3e",
+            "short_description": "Developed software, mentored peers, and engaged in customer projects.",
+            "organization": "Kitestring",
+            "role": "I.T. Consultant",
+            "tech_stack": [
+                "React",
+                "Redux",
+                "Node",
+                "Express",
+                "MSSQL"
+            ],
+            "time_duration": {
+                "start_date": "2017",
+                "end_date": "2019",
+                "duration_months": 24
+            },
+            "relevance": 6
+        }
+    ],
+    "candidate_name": "Charles Stover",
+    "email": "contact@charlesstover.com",
+    "file": "http://localhost:8000/backend-media/resumes/charles-stover-resume_mOnkZNB.pdf",
+    "relevance": 85
+}

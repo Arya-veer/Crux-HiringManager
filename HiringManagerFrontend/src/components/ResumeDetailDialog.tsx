@@ -82,7 +82,7 @@ const ProjectCard = (props: ProjectCardProps) => {
       <div className="flex flex-row justify-between w-full border-b-2 border-gray-600">
         <p className="font-semibold text-sm">{project.project_title}</p>
         <p className="text-sm text-gray-800">
-          {project.time_duration.start_date} - {project.time_duration.end_date}
+          {project.time_duration && <>{project.time_duration.start_date} - {project.time_duration.end_date}</>}
         </p>
       </div>
       <div className="flex flex-col gap-1">
@@ -151,8 +151,7 @@ const ProfessionalExperienceCard = (props: ProfessionalExperienceCardProps) => {
           </p>
         </div>
         <p className="text-sm text-gray-800">
-          {professionalExperience.time_duration.start_date} -{" "}
-          {professionalExperience.time_duration.end_date}
+        {professionalExperience.time_duration && <>{professionalExperience.time_duration.start_date} - {professionalExperience.time_duration.end_date}</>}
         </p>
       </div>
       <div className="flex flex-col gap-1">

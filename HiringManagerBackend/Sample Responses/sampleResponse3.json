@@ -1,0 +1,196 @@
+{
+    "static_id": "1c062dee-a53e-4721-b797-3bf03171fd0f",
+    "college": {
+        "name": "Birla Institute of Technology and Science, Pilani",
+        "branch": "Computer Science",
+        "degree": "B.E. (Hons.)",
+        "cgpa": "8.5",
+        "start_date": "08/2020",
+        "end_date": "Present"
+    },
+    "projects": [
+        {
+            "static_id": "13c3796e-d831-4c21-9fce-02f48832a6f8",
+            "project_title": "Automated Account Opening Flow for Standard Chartered Bank",
+            "short_description": "Developed a Proof of Concept full-stack application to automate a manual part of account opening flow for Standard Chartered bank.",
+            "relevancy": 8,
+            "tech_stack": [
+                "Java",
+                "Springboot",
+                "Oracle DB",
+                "JPA",
+                "Lombok"
+            ],
+            "time_duration": {
+                "start_date": "05/2023",
+                "end_date": "Present",
+                "duration_months": 9
+            }
+        },
+        {
+            "static_id": "cd79c10e-157a-4cd6-811c-9295e2931c80",
+            "project_title": "Cross-platform Application for Student Transactions",
+            "short_description": "Developed a cross-platform application for students' transactions and services.",
+            "relevancy": 8,
+            "tech_stack": [
+                "Django Rest Framework",
+                "React JS",
+                "Digital Ocean",
+                "Sentry"
+            ],
+            "time_duration": {
+                "start_date": "05/2023",
+                "end_date": "Present",
+                "duration_months": 2
+            }
+        },
+        {
+            "static_id": "8a84a102-d112-420e-8447-3404d4dec730",
+            "project_title": "SU App and Web Portal",
+            "short_description": "Full Stack Development for SU App and Web Portal.",
+            "relevancy": 7,
+            "tech_stack": [
+                "Python3",
+                "Django",
+                "Django REST",
+                "Postman",
+                "CSS3",
+                "HTML5",
+                "Javascript"
+            ],
+            "time_duration": {
+                "start_date": "08/2021",
+                "end_date": "12/2021",
+                "duration_months": 4
+            }
+        },
+        {
+            "static_id": "e4009b2e-f854-4d4a-a809-f16ae46b373e",
+            "project_title": "StudyDeck App and Website",
+            "short_description": "Backend and Database Development for StudyDeck App and Website.",
+            "relevancy": 7,
+            "tech_stack": [
+                "Django",
+                "Django REST",
+                "MySQL",
+                "JWT"
+            ],
+            "time_duration": {
+                "start_date": "05/2023",
+                "end_date": "Present",
+                "duration_months": 2
+            }
+        },
+        {
+            "static_id": "452b10c9-76a2-4952-8050-387fb9cef22f",
+            "project_title": "InterBITS 2023 Official Fest App",
+            "short_description": "Developed backend for the official fest app for InterBITS 2023.",
+            "relevancy": 7,
+            "tech_stack": [
+                "Django Rest",
+                "Postgres",
+                "Linux",
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "time_duration": {
+                "start_date": "05/2023",
+                "end_date": "Present",
+                "duration_months": 2
+            }
+        },
+        {
+            "static_id": "59985ba9-3124-4e22-b466-ea610d4a60f8",
+            "project_title": "MeDiKIT",
+            "short_description": "Software Development for digitalizing medical data under the guidance of Dr. Tanmay Mahapatra.",
+            "relevancy": 6,
+            "tech_stack": [
+                "Tkinter",
+                "Postgres",
+                "Django Rest Framework",
+                "Linux"
+            ],
+            "time_duration": {
+                "start_date": "08/2022",
+                "end_date": "Present",
+                "duration_months": 4
+            }
+        },
+        {
+            "static_id": "448d5701-2f2a-4dfb-947e-b93bc3a2887e",
+            "project_title": "Project OneTap",
+            "short_description": "Software Development for Project OneTap.",
+            "relevancy": 6,
+            "tech_stack": [
+                "Python3",
+                "Django",
+                "Django REST"
+            ],
+            "time_duration": {
+                "start_date": "05/2021",
+                "end_date": "11/2021",
+                "duration_months": 6
+            }
+        },
+        {
+            "static_id": "46d149cf-3402-4f1b-89b5-3bbb2f4701ad",
+            "project_title": "ERPLAG Compiler",
+            "short_description": "Design and Construction of Compiler for ERPLAG.",
+            "relevancy": 6,
+            "tech_stack": [
+                "Python",
+                "Tkinter",
+                "MySQL",
+                "Django"
+            ],
+            "time_duration": {
+                "start_date": "02/2023",
+                "end_date": "04/2023",
+                "duration_months": 3
+            }
+        }
+    ],
+    "professional_experiences": [
+        {
+            "static_id": "69dc1852-1a11-4c7a-9c3f-a1feebeddedd",
+            "short_description": "Automated a manual part of account opening flow by developing a Proof of Concept full-stack application for Standard Chartered bank.",
+            "organization": "Standard Chartered GBS",
+            "role": "SDE-Intern",
+            "tech_stack": [
+                "Java",
+                "Springboot",
+                "Oracle DB",
+                "JPA",
+                "Lombok"
+            ],
+            "time_duration": {
+                "start_date": "05/2023",
+                "end_date": "Present",
+                "duration_months": 9
+            },
+            "relevance": 8
+        },
+        {
+            "static_id": "6bccfd23-db9c-4a04-8d68-ecfe36f8208d",
+            "short_description": "Automated testing of multiple API and authentication functions.",
+            "organization": "Asanify Technologies Pvt. Ltd.",
+            "role": "Quality Analyst",
+            "tech_stack": [
+                "Python",
+                "Postman",
+                "CRUD APIs"
+            ],
+            "time_duration": {
+                "start_date": "05/2022",
+                "end_date": "07/2022",
+                "duration_months": 3
+            },
+            "relevance": 6
+        }
+    ],
+    "candidate_name": "ARYA VEER SINGH CHAUHAN",
+    "email": "F20200094@PILANI.BITS-PILANI.AC.IN",
+    "file": "http://localhost:8000/backend-media/resumes/Arya_Veer_SDE_Resume_Updated_pprjOL8.pdf",
+    "relevance": 85
+}

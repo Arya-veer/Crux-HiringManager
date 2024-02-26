@@ -23,7 +23,7 @@ class Resume(models.Model):
     file = models.FileField(upload_to='resumes/')
     text = models.TextField(blank=True)
     job = models.ForeignKey(Job, on_delete=models.CASCADE,related_name='resumes')
-    relevance = models.IntegerField(default=0)
+    relevance = models.IntegerField(default=0,null=True)
     
     
     class Meta:
@@ -37,12 +37,12 @@ class Resume(models.Model):
 class College(models.Model):
     
     static_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    name = models.CharField(max_length=100,blank = True)
-    branch = models.CharField(max_length=100,blank = True)
-    degree = models.CharField(max_length=100,blank = True)
+    name = models.CharField(max_length=100,blank = True,null=True)
+    branch = models.CharField(max_length=100,blank = True,null=True)
+    degree = models.CharField(max_length=100,blank = True,null=True)
     cgpa = models.DecimalField(max_digits = 3,decimal_places = 1,null=True)
-    start_date = models.CharField(max_length=7,blank = True)
-    end_date = models.CharField(max_length=7,blank = True)
+    start_date = models.CharField(max_length=7,blank = True,null=True)
+    end_date = models.CharField(max_length=7,blank = True,null=True)
     resume = models.OneToOneField(Resume, on_delete=models.CASCADE,related_name='college')
     
     class Meta:
@@ -57,11 +57,11 @@ class Project(models.Model):
     
     static_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title = models.CharField(max_length=100,blank = True)
-    description = models.TextField()
-    tech_stack = models.JSONField()
-    time_duration = models.JSONField()
+    description = models.TextField(null = True)
+    tech_stack = models.JSONField(null = True)
+    time_duration = models.JSONField(null = True)
     resume = models.ForeignKey(Resume, on_delete=models.CASCADE,related_name='projects')
-    relevance = models.IntegerField()
+    relevance = models.IntegerField(default = 0,null=True)
     
     class Meta:
         verbose_name = 'Project'
@@ -74,13 +74,13 @@ class Project(models.Model):
 class ProfessionalExperience(models.Model):
     
     static_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    organization = models.CharField(max_length=100,blank = True)
-    role = models.CharField(max_length=100,blank = True)
-    tech_stack = models.JSONField()
-    description = models.TextField()
-    time_duration = models.JSONField()
+    organization = models.CharField(max_length=100,blank = True,null=True)
+    role = models.CharField(max_length=100,blank = True,null = True)
+    tech_stack = models.JSONField(null = True)
+    description = models.TextField(null = True)
+    time_duration = models.JSONField(null = True)
     resume = models.ForeignKey(Resume, on_delete=models.CASCADE,related_name='professional_experiences')
-    relevance = models.IntegerField()
+    relevance = models.IntegerField(default = 0,null=True)
     
     class Meta:
         verbose_name = 'Professional Experience'

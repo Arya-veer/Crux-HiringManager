@@ -1,0 +1,107 @@
+{
+    "static_id": "3a7488fb-2a83-4a7e-99ea-da8c26cff2e7",
+    "college": {
+        "name": "Birla Institute of Technology and Science, Pilani",
+        "branch": "Computer Science",
+        "degree": "Bachelor of Engineering",
+        "cgpa": null,
+        "start_date": "Nov 2020",
+        "end_date": "Present"
+    },
+    "projects": [
+        {
+            "static_id": "f1d60ccc-88d4-42be-a46d-509a09e3ad54",
+            "project_title": "Fractional gradient-based back-propagation in Recurrent Neural Networks",
+            "short_description": "Worked on fractional gradient-based back-propagation in RNN to improve time-series prediction of AQI - paper under review at computational intelligence and Neuroscience journal.",
+            "relevancy": 8,
+            "tech_stack": [
+                "N/A"
+            ],
+            "time_duration": {
+                "start_date": "Nov 2020",
+                "end_date": "Feb 2021",
+                "duration_months": 3
+            }
+        },
+        {
+            "static_id": "b2ba93eb-80c4-47d5-ab6a-deb50eac1389",
+            "project_title": "Weighted GOP calculations/ WPSM metric calculation",
+            "short_description": "Working on weighted scores of Phonemes to increase the GOP metric used in computer-assisted language learning.",
+            "relevancy": 7,
+            "tech_stack": [
+                "N/A"
+            ],
+            "time_duration": {
+                "start_date": "N/A",
+                "end_date": "N/A",
+                "duration_months": null
+            }
+        },
+        {
+            "static_id": "c500018c-8121-49d1-8b03-dde9cbdbba28",
+            "project_title": "Shortest Path Finding Algorithms With Exploration Transform Heuristic",
+            "short_description": "Implemented AI algorithms such as A* and D* and modified their performance using different heuristics for the safest paths through the graph on MATLAB.",
+            "relevancy": 6,
+            "tech_stack": [
+                "MATLAB"
+            ],
+            "time_duration": {
+                "start_date": "Mar 2020",
+                "end_date": "Jul 2020",
+                "duration_months": 4
+            }
+        },
+        {
+            "static_id": "b2adb846-a4a7-4dcf-9c0d-c74816ef077e",
+            "project_title": "Client server Authentication using Java Sockets",
+            "short_description": "Implemented client-server authentication using Java Sockets.",
+            "relevancy": 6,
+            "tech_stack": [
+                "Java",
+                "Sockets"
+            ],
+            "time_duration": {
+                "start_date": "N/A",
+                "end_date": "N/A",
+                "duration_months": null
+            }
+        },
+        {
+            "static_id": "fd4aa318-6b93-43fe-a904-0c42bfa8c011",
+            "project_title": "Movie booking system using Python(tkinter) and cloud relational database",
+            "short_description": "Developed a movie booking system using Python(tkinter) and cloud relational database.",
+            "relevancy": 5,
+            "tech_stack": [
+                "Python",
+                "tkinter",
+                "Cloud Relational Database"
+            ],
+            "time_duration": {
+                "start_date": "N/A",
+                "end_date": "N/A",
+                "duration_months": null
+            }
+        }
+    ],
+    "professional_experiences": [
+        {
+            "static_id": "b290f467-fbe9-47c0-aac1-f86ea03763e3",
+            "short_description": "Developed a CMS integration pipeline for the CertCentral Platform which allows product managers and other staff to make changes to the platform without the assistance of engineers.",
+            "organization": "DigiCert, Inc",
+            "role": "SDE INTERN",
+            "tech_stack": [
+                "N/A"
+            ],
+            "time_duration": {
+                "start_date": "Jul 2023",
+                "end_date": "Present",
+                "duration_months": null
+            },
+            "relevance": 9
+        }
+    ],
+    "candidate_name": "Rishi Rakesh Shrivastava",
+    "email": "rishishrivastava32@gmail.com",
+    "file": "http://localhost:8000/backend-media/resumes/Rishi_Swe_A9pExXW.pdf",
+    "relevance": 85
+}

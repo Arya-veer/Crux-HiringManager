@@ -11,7 +11,7 @@ import json
 
 # Import for running multiple threads
 import concurrent.futures
-
+import threading
 
 # External Libraries imports
 from PyPDF2 import PdfReader
@@ -83,9 +83,14 @@ class ResumeHandler:
         if not final_data.get('isResume'):
             raise Exception("The file is not a resume")
         self.__update_resume(final_data.get("profile"),final_data.get('relevance'))
-        self.___create_college,final_data.get('college')
-        self.___create_projects,final_data.get('projects')
-        self.___create_professional_experiences,final_data.get('professional_experiences')
+        
+        threading.Thread(target=self.___create_college,args=(final_data.get('college'),)).start()
+        threading.Thread(target=self.___create_projects,args=(final_data.get('projects'),)).start()
+        threading.Thread(target=self.___create_professional_experiences,args=(final_data.get('professional_experiences'),)).start()
+        
+        # self.___create_college(final_data.get('college'))
+        # self.___create_projects(final_data.get('projects'))
+        # self.___create_professional_experiences(final_data.get('professional_experiences'))
 
 def handle_resume(file: InMemoryUploadedFile, hashCode:str, job: Job):
     serializer = ResumeSerializer(data={'file': file, 'job': job.static_id})

@@ -7,10 +7,12 @@ import HomePage from "./pages/HomePage";
 import { ResumePage } from "./pages/ResumePage";
 import UploadResume from "./pages/UploadResume";
 import { Toaster } from "@/components/ui/toaster";
+import Navbar from "./components/Navbar";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
+    <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/job/:static_id" element={<ResumePage />} />
